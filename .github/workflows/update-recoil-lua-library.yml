@@ -1,7 +1,5 @@
 name: Update Recoil Lua library
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
 jobs:
   update:

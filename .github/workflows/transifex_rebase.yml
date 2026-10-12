@@ -2,8 +2,6 @@ name: Translations rebase from master
 
 on:
   workflow_dispatch: 
-  schedule:
-  - cron: '15 5 * * 1'
 
 permissions: write-all
 
